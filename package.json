@@ -18,8 +18,8 @@
   "author": "Brad Dougherty <me@brad.is>",
   "license": "MIT",
   "dependencies": {
+    "@mapbox/geojsonhint": "^2.0.1",
     "eslint-formatter-pretty": "^1.3.0",
-    "geojsonhint": "^2.0.0",
     "globby": "^7.0.0",
     "meow": "^3.7.0"
   },

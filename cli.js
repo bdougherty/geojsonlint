@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 const meow = require('meow');
 const globby = require('globby');
-const geojsonhint = require('geojsonhint');
+const geojsonhint = require('@mapbox/geojsonhint');
 const prettyFormatter = require('eslint-formatter-pretty');
 
 const readFileAsync = promisify(fs.readFile);
