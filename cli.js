@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 
 const { promisify } = require('util');
@@ -29,7 +30,7 @@ const cli = meow(`
 });
 
 const lintFile = async (file, precisionWarning = true) => {
-	const data = await readFileAsync(path.resolve(__dirname, file));
+	const data = await readFileAsync(path.resolve(file));
 	const results = geojsonhint.hint(`${data}`, {
 		precisionWarning
 	});
