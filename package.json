@@ -2,6 +2,16 @@
   "name": "geojsonlint",
   "version": "1.0.1",
   "description": "A better CLI for @mapbox/geojsonhint.",
+  "author": "Brad Dougherty <me@brad.is>",
+  "license": "MIT",
+  "repository": "bdougherty/geojsonlint",
+  "bugs": "https://github.com/bdougherty/geojsonlint/issues",
+  "keywords": [
+    "geojson",
+    "geojsonlint",
+    "geojsonhint",
+    "linter"
+  ],
   "main": "cli.js",
   "bin": {
     "geojsonlint": "cli.js"
@@ -10,13 +20,13 @@
     "node": ">=7"
   },
   "files": [
-    "cli.js"
+    "cli.js",
+    "LICENSE.md",
+    "README.md"
   ],
   "scripts": {
     "test": "xo"
   },
-  "author": "Brad Dougherty <me@brad.is>",
-  "license": "MIT",
   "dependencies": {
     "@mapbox/geojsonhint": "^2.0.1",
     "eslint-formatter-pretty": "^1.3.0",
