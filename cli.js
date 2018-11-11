@@ -23,9 +23,11 @@ const cli = meow(`
 	  geojsonlint **/*.geojson
 	  geojsonlint --disable-precision-warning precise.geojson
 `, {
-	boolean: ['disable-precision-warning'],
-	default: {
-		'disable-precision-warning': false
+	flags: {
+		disablePrecisionWarning: {
+			type: 'boolean',
+			default: false
+		}
 	}
 });
 
