@@ -1,6 +1,6 @@
 {
   "name": "geojsonlint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A better CLI for @mapbox/geojsonhint.",
   "author": "Brad Dougherty <me@brad.is>",
   "license": "MIT",
