@@ -17,7 +17,7 @@
     "geojsonlint": "cli.js"
   },
   "engines": {
-    "node": ">=7"
+    "node": ">=8"
   },
   "files": [
     "cli.js",
@@ -28,14 +28,14 @@
     "test": "xo"
   },
   "dependencies": {
-    "@mapbox/geojsonhint": "^2.1.0",
-    "eslint-formatter-pretty": "^2.0.0",
-    "globby": "^8.0.1",
+    "@mapbox/geojsonhint": "^3.0.0",
+    "eslint-formatter-pretty": "^2.1.1",
+    "globby": "^10.0.1",
     "meow": "^5.0.0"
   },
   "devDependencies": {
     "eslint-config-bdougherty": "^5.1.1",
-    "xo": "^0.23.0"
+    "xo": "^0.25.3"
   },
   "xo": {
     "extends": "bdougherty"
