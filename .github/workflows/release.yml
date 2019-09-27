@@ -1,6 +1,8 @@
 name: Publish
 
-on: [release]
+on:
+  release:
+    types: [published]
 
 jobs:
   test:
@@ -21,7 +23,7 @@ jobs:
       run: npm test
 
   publish-npm:
-    needs: build
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -37,7 +39,7 @@ jobs:
 
   publish-gpr:
     name: Publish to GitHub Package Repository
-    needs: build
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
