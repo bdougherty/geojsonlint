@@ -1,4 +1,6 @@
 # geojsonlint
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbdougherty%2Fgeojsonlint.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbdougherty%2Fgeojsonlint?ref=badge_shield)
+
 
 > A better CLI for [@mapbox/geojsonhint](https://github.com/mapbox/geojsonhint).
 
@@ -38,3 +40,6 @@ Supports any combination of files and globs, in addition to directories (see [gl
 ## License
 
 MIT © [Brad Dougherty](https://brad.is)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbdougherty%2Fgeojsonlint.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbdougherty%2Fgeojsonlint?ref=badge_large)
